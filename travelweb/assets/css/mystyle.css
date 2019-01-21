@@ -1,0 +1,414 @@
+/*set up font style, margin, background image*/
+body{
+	 font-family: "Arial";
+	 color: #29293d;
+	 font-size: 20px;
+	 margin-right: 10%;
+	 margin-left: 10%;
+	 background-image: url(../image/shanghai-sunset.jpg);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 
+	 }
+	 
+ 
+/*Horizontal Navigation*/ 	 	 
+ul{
+	list-style:none;
+	margin: 0;
+    padding: 0;
+    
+   }
+   
+   
+a{
+	text-decoration:none;
+  }	  	
+
+/*set width,height,and color*/
+#navlist{
+	width: 100%;
+	height:35px;
+    margin:auto;	
+    background-color:#cce6ff; 
+}
+
+/*set the height,border,and position*/ 
+#navlist ul li{
+	width:160px;
+	height:35px;
+	float:left;
+	position:relative;
+	border-right: 2px solid #fff;
+	}
+
+/*set the width,height,color, and background-color*/ 	
+#navlist ul li a {
+    display:block;
+    width:160px;  
+    height:35px; 
+    line-height:26px; 
+    text-align:center;
+    color: #3d3d5c;
+    background-color:#cce6ff;
+    
+    }
+/*set the color and background when user hover*/     
+#navlist ul li a:hover { 
+    background-color: #99ddff;
+	color: white;
+
+}    
+
+
+/*hide the second level*/
+#navlist ul li ul{
+    display:none;
+}
+
+
+/*show the second level*/
+#navlist ul li:hover ul{
+    display:block;
+    width:160px;
+    position:absolute;
+    top:35px;
+    left:0;
+    background-color:#cce6ff;
+    min-width: 160px;
+}
+
+
+
+/*side Navigation*/
+#navigation { 
+	width:100%;
+	font-size: 30px;
+} 
+
+/*set the margin and padding*/ 
+#navigation > ul { 
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px; 
+} 
+
+/*set the border*/ 
+#navigation > ul > li { 
+	border-bottom:1px solid #fff; 
+} 
+
+/*set the padding*/ 
+#navigation > ul > li > a{ 
+	display:block; 
+	text-decoration:none; 
+	padding:5px 5px 5px 0.5em; 
+	 
+} 
+
+/*set the color and background*/ 
+#navigation > ul > li > a:link, #navigation > ul > li > a:visited{ 
+    color: #3d3d5c;
+    background-color:#cce6ff;
+} 
+
+/*set the color and background when hover*/ 
+#navigation > ul > li > a:hover{ 
+    background-color: #99ddff;
+	color: white; 
+} 
+
+
+/*set the margin and padding*/ 
+#navigation ul li ul{ 
+	list-style-type:none; 
+	margin:0; 
+	padding:0; 
+} 
+
+/*set the border*/ 
+#navigation ul li ul li{ 
+	border-top:1px solid #fff; 
+}
+
+/*set the padding*/  
+#navigation ul li ul li a{ 
+	display:block; 
+	text-decoration:none;
+	padding:3px 3px 3px 0.5em; 
+	 
+
+} 
+
+/*set the color and background*/ 
+#navigation ul li ul li a:link, #navigation ul li ul li a:visited{ 
+	background-color:#ccf2ff;
+	color: #3d3d5c; 
+}
+
+
+/*set the color and background*/ 
+#navigation ul li ul li a:hover{ 
+	background-color: #99ddff;
+	color: white; 
+} 
+
+/*hide the second level*/
+#navigation ul li ul.myHide{ 
+	display:none; 
+} 
+
+/*show the second level*/
+#navigation ul li ul.myShow{ 
+	display:block; 
+}
+
+
+/*set background color and position*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    text-align:center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #cce6ff;
+    overflow-x: hidden;
+    transition: 0.75s;
+    padding-top: 60px;
+    
+}
+
+/*set padding,color, and font size*/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+/*set location and font size*/
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/*set font style and color*/
+h1{
+   color:#fff5e6;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
+   }
+   
+/*set font style and color*/   
+h2{
+   color:#3d3d5c;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
+   } 
+   
+   
+/*set font style and color*/     
+h3{
+   color:#3d3d5c;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
+   }    
+
+ /*set font style and color*/   
+ h4{
+   color:#ff0000; 
+   font-size: 30px;
+   font-weight: bold;
+   text-align: left;
+   padding-left: 8%;
+ }     
+     
+/*set paragraph style*/   
+p{
+    padding-left: 8%;
+    padding-right: 8%;
+    line-height: 150%; 
+    text-indent: 50px; 
+    text-align: justify; 	
+	}
+
+
+/*set background color,margin, and border radius*/	        	
+.box1{
+	margin-top:3%;
+	background-color:rgba(235, 240, 250,0.75);
+	border-radius: 15px;
+	padding-top:3%;
+	padding-bottom:35%;
+	
+}
+
+/*set background color,margin, and border radius*/	        	
+.box2{
+	margin-top:3%;
+	padding-top:3%;
+	background-color:rgba(235, 240, 250,0.75);
+	border-radius: 15px;
+	padding-bottom:3%;
+	
+}
+
+
+/*set background color,margin, and border radius*/
+.box3{
+	padding-bottom:25%;
+	background-color:rgba(235, 240, 250,0.75);
+	border-radius: 15px;
+	
+}
+
+/*set the border*/
+.commBord {
+    border: 1px solid rgba(235, 240, 250,0.0);
+  	margin-left:10%;
+  	margin-right:10%;
+}
+
+
+.bord {
+    border: 1px solid rgba(235, 240, 250,0.0);
+  	margin-left:30%;
+  	margin-right:30%;
+}
+
+
+/*set padding for video*/
+.video{
+		padding:3% 25% 0 25%;
+		}
+ 
+
+
+/*set image float left and margin*/
+.pic{
+	  float:left;
+	  display: inline-block;
+      border: 2px solid black;
+      border-radius: 4px;
+      margin-left:5%;
+      margin-right:2%;	
+      padding: 5px; 	
+	}	
+
+/*set image float to right and margin*/
+.img{  
+	  float:right;
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 4px;
+      padding: 5px;
+      margin-left:2%;
+      margin-right:2%;
+    }
+ 
+ /*set image float to right and margin*/   
+.pic2{ 
+      clear: both;
+      margin-right:25%;
+      margin-left:25%;
+      margin-bottom:15px;
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 5px;
+    } 
+    
+/*set image float to right and margin*/
+.map{  
+	  float:right;
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 4px;
+      padding: 5px;
+      margin-left:2%;
+      margin-right:2%;
+    }    
+
+/*set color and padding*/
+footer{
+	background-color:#cce6ff;
+	text-align:center;
+	padding:5px 0;
+	margin-top:30px;
+	border-radius: 15px;
+}       
+
+/*when width is more than 780px, the side nav will not be displayed*/
+@media (min-width: 780px) {
+	span{
+		display:none;
+	}
+	
+	
+}
+
+@media(max-width:1100px){
+	.img{
+		display:none;
+	}
+}
+
+/*when width is less than 780px and greater than 350px, the global nav is not display*/
+@media screen and (max-width:780px) and (min-width:450px){
+
+	#navlist{
+		display:none;
+	}
+	
+	.video{
+		display:none;
+	}
+	
+	.map{
+		display:none;
+	}
+	.img{
+		display:none;
+	}
+}
+
+
+/*when width is less than 350px, the global nav and video will not be displayed */
+@media screen and (max-width:450px){
+	#navlist{
+		display:none;
+	}
+	.video{
+		display:none;
+	}
+	
+	.map{
+		display:none;
+	}
+	.img{
+		display:none;
+	}
+	.pic{
+		display:none;
+	}
+
+	
+	
+}
+	
+	
+
+    			 
