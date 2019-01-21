@@ -1,7 +1,3 @@
-/**
-Name:Yaling Lian
-Course: ISTE 340
-*/
 var myData =data[theChoice];
 var reslute;
 var selectVal= document.getElementsByTagName('select');
