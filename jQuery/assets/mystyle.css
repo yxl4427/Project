@@ -1,0 +1,270 @@
+/*
+ Name:Yaling Lian
+ Course: ISTE 340
+ Project 2
+*/
+
+
+/*style of background*/
+#background{
+	position:fixed;
+	z-index:-10;	
+ 	top: 0;
+  	left: 0;
+  	width:100%;
+  	height:100%;
+  	min-width: 1000px;
+  	zoom: 1;
+  	background-color: #fff;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-o-background-size: cover;
+  	background-position: center 0;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+}
+
+/*style of header*/
+#titleHeader{
+	text-align:center;
+	margin-top:20%;
+	margin-bottom:28%;
+	
+}
+
+
+/*set up the style of @RIT*/
+#txtColor{
+	font-size: 32px;
+	color: #cc6600;
+	font-style: italic;
+}
+
+/*Set up the margin, background color and padding of about section */
+#about{
+	margin: 0 10% 0 10%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	
+}
+
+
+h2{
+	text-align:center;
+}
+
+/*Set the font color of /about/quote/ data*/
+#quote{
+	color:#333333;
+}
+
+/*set the font style of /quoteAuthor/*/
+#author{
+	text-align:center;
+	color: #ff8000;
+}
+
+
+/*Style of undergraduate section*/
+#undergraduate{
+	margin-top: 15%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	border-bottom: 5px solid #ff8000;
+	height: 450px;
+}
+
+.inLine{
+	overflow:auto;
+	display:flex;
+	margin-left:10%;
+	margin-right:10%;
+	padding:25px 0 20px 0;
+}
+
+
+.inCol{
+	flex: 33.33%;
+	paddind:5px;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+.ima{
+	padding-left:30%;
+}
+
+/*Set the margin top of graduate section*/
+#graduate{
+	margin-top: 15%;
+}
+
+#certificates{
+	text-align:center;
+}
+
+/*Style of minor section*/
+#minor{
+	margin-top: 15%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	border-bottom: 5px solid #ff8000;
+}
+
+.oneRow{
+	flex: 25%;
+	paddind:5px;
+	margin-right:10px;
+	background-color: #ffd9cc;
+	cursor: pointer;
+	width:200px;
+	height:200px;
+}
+
+
+/*Style of employment section*/
+#employment{
+	margin-top: 15%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+/*Style of degreeStat*/
+#degreeStat{
+	margin-top:30px;
+	padding: 10px 30px 20px 30px;
+	background-color:rgba(242, 242, 242,0.5);
+}
+
+/*Style of coopSect*/
+#coopSect{
+	margin-top: 15%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	border-bottom: 5px solid #ff8000;
+}
+
+
+/*Style of google map*/
+#map-div{
+			margin-left:20%;
+			width: 50%;
+			height:380px;
+			overflow:hidden;
+			position:relative;
+}
+		
+#map-iframe{
+			top: -300px;
+			left:-320px;
+			width:1280px;
+			height:600px;
+			position:absolute;
+}
+
+/*Create the coop table box*/
+#coopTable{
+	margin-left:8%;
+	width:350px;
+	height:200px;
+	background-color: #ffbf80;
+}
+	
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}	
+
+/*Create the employment table box*/	
+#employmentTable{
+	margin-left:10px;
+	width:350px;
+	height:200px;
+	background-color: #9fbfdf;
+}
+
+
+/*Set the margin top of people section*/
+#people{
+	margin-top: 15%;
+	
+}
+
+
+.falStyle{
+	width:150px;
+	height:40px;
+	background-color:rgba(242, 242, 242,0.8);
+	text-align:center;
+	padding: 10px 20px 20px 20px;
+	border: 1px solid #ffbf80;
+	cursor: pointer;
+}
+
+
+.fourFaculty{
+	flex: 25%;
+	float:left;
+	display:inline;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+
+/*Set the style of interestResearch section*/
+#interestResearch{
+	margin-top: 15%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	border-bottom: 5px solid #ff8000;
+}
+
+
+.areaStyle{
+	width:100px;
+	height:40px;
+	background-color:rgba(242, 242, 242,0.8);
+	text-align:center;
+	padding:20px 20px 20px 20px;
+	border: 1px solid #ffbf80;
+	border-radius: 15px 50px;
+	cursor: pointer;	
+}
+
+/*Set the margin top of facultyResearch*/
+#facultyResearch{
+	margin-top: 15%;
+}
+
+/*Set the margin top of resources*/
+#resources{
+	margin-top: 15%;
+}
+
+
+.resStyle{
+	width:130px;
+	height:100px;
+	background-color:rgba(242, 242, 242,0.8);
+	text-align:center;
+	padding:20px 20px 20px 20px;
+	border: 1px solid #ffbf80;
+	border-radius: 50px 15px;
+	cursor: pointer;
+	font-size: 20px;	
+}
+
+
+#foot{
+	margin-top: 15%;
+	background-color:rgba(242, 242, 242,0.8);
+	padding: 20px 10px 10px 20px;
+	border-bottom: 5px solid #ff8000;
+}

@@ -1,0 +1,168 @@
+<!--
+ Name:Yaling Lian
+ Course: ISTE 340
+ Project 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>IST Dept Site</title>
+
+<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/mystyle.css">
+
+<script type="text/javascript" src="assets/dist/jquery-confirm.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/dist/jquery-confirm.min.css">
+
+
+<script type="text/javascript" src="assets/dist/ssi-modal.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/dist/ssi-modal.css">
+
+<script type="text/javascript" src="assets/dist/jquery.funnyText.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/dist/jquery.funnyText.css">
+
+<body>
+	<!--Set the background image-->
+ 	<div id="background" style="background-image:url(assets/image/pexels-photo-326424.jpg);"></div> 
+  	
+  	<!--The Title of Page-->
+  	<div id="titleHeader">
+  		<h1>INFORMATION SCIENCES & TECHNOLOGIES</h1>
+  		<span id="txtColor">@ RIT</span>
+  	</div>
+  	
+  	<!--display the about information-->
+  	<section id="about"></section>
+  	
+  	
+  	<!--Show the undergraute information-->
+  	<section id="undergraduate">
+  		<h2>Our Undergraduate Degrees</h2>
+  		<div class="inLine">
+  			<div id="wmCom" class="inCol">
+  				<img class="ima" src="assets/image/web-badge-png-7.png" alt="web&mobile" width="90" height="90">
+  			</div>
+  			<div id="hcCom" class="inCol">
+  				<img class="ima" src="assets/image/target-audience.png" alt="HCC" width="90" height="90">
+  			</div>
+  			
+  			<div id="citCom" class="inCol">
+  				<img class="ima" src="assets/image/195507.png" alt="CIT" width="90" height="90">
+  			</div>
+  		</div>	
+  	</section>
+  	
+  	<!--Show the graute information-->
+  	<section id="graduate">
+  		<h2>Our Graduate Degrees</h2>
+  		<div class="inLine">
+  			<div id="ist" class="inCol">
+  				<img class="ima" src="assets/image/kisspng-information-technology-computer-icons-clip-art-skill-5ad7cb82ba9da4.5015987015240917787644.png" alt="ist" width="115" height="100">
+  			</div>
+  			<div id="hci" class="inCol">
+  				<img class="ima" src="assets/image/Icon-Human-Computer-Interaction-small.png" alt="hci" width="85" height="85">
+  			</div>
+  			<div id="nsa" class="inCol">
+  				<img class="ima" src="assets/image/Icon_Gear.png" alt="hci" width="90" height="90">
+  			</div>
+  		</div>	
+	
+		<div id='certificates'></div>
+  	</section>
+  	
+  	
+  	<!--display the minor information-->
+  	<section id="minor">
+  		<h2>Our Undergraduate Minor</h2>
+  		<p style="text-align:center;color:#4d4d4d">Expand your field of Study</p>
+  		<div class="inLine">
+  			<div id="minContext"></div>
+  		</div> 	
+  	</section>
+  	
+  	
+  	<!--display employment information-->
+  	<section id="employment">
+  		<div id="introduction"></div>
+  		<div id="degreeStat"></div>
+  		<div id="employers"></div>
+  		<div id="careers"></div>
+  	</section>
+  	
+  	<!--Show the coop information and google map-->
+  	<section id="coopSect">
+  		<h2>Where Our Students Work</h2>
+		<div id="map-div">
+			<iframe id="map-iframe" src="https://ist.rit.edu/api/map.php" scrolling="no">
+			<p>Your browser does not support show ing the contract Form. Your are using an old browser, get a new browser and try again.</p>
+			</iframe>
+		</div>
+		<div class='inLine'">
+			<div id="coopTable" style="cursor: pointer;">
+			</div>
+			<div id="employmentTable" style="cursor: pointer;">
+			</div>
+		</div>
+  	</section>
+  	
+  	<!--display the faculty and staff information-->
+	<section id="people">
+		<div id="peopleTitle"></div>
+		<div class="inLine">
+		<div id="faculty"></div>
+		</div>
+		
+		<div class="inLine">
+		<div id="staff"></div>
+		</div>
+	</section>
+	
+	
+	<!--display the Reasearch information and the faculty's photo-->
+	<section id="interestResearch">
+		<h2>Faculty Reasearch: Areas of Interest</h2>
+		<p style="text-align:center;color:#4d4d4d"> Click the area you're interested in to explore our faculty publications</p>
+		<div class='inLine'>
+			<div id="byInterestArea">
+			</div>	
+		</div>
+		<h2>Faculty Research: Lookup by Faculty</h2>
+		<p style="text-align:center;color:#4d4d4d">Click the faculty member to explore their recent publications</p>
+		<div class='inLine'>
+			<div id="facultyArea">
+			</div>
+		</div>
+	</section>
+	
+	<!--display the resources information-->
+	<section id="resources">
+		<div id="resourceTitle"></div>
+			<div class="inLine">
+			<div id="sa" >
+  			</div>
+  			<div id="ss">
+  			</div>
+  			<div id="ta" >
+  			</div>
+  			
+  			<div id="sam">
+  			</div>
+  			</div>
+ 			<div class="inLine">
+  			<div id="forms">
+  			</div>
+  			<div id="ce">
+  			</div>
+			</div>
+	</section>
+	
+	<section id="foot">
+		<div class="inLine">
+		</div>
+	</section>
+
+</body>
+</html>
