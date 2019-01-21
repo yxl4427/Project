@@ -1,0 +1,11 @@
+P:\RESTUtil\RESTUtil\bin\Debug\RESTUtil.dll
+P:\RESTUtil\RESTUtil\bin\Debug\RESTUtil.pdb
+P:\RESTUtil\RESTUtil\obj\Debug\RESTUtil.csproj.CoreCompileInputs.cache
+P:\RESTUtil\RESTUtil\obj\Debug\RESTUtil.dll
+P:\RESTUtil\RESTUtil\obj\Debug\RESTUtil.pdb
+C:\Users\student\Desktop\RESTUtil\RESTUtil\bin\Debug\RESTUtil.dll
+C:\Users\student\Desktop\RESTUtil\RESTUtil\bin\Debug\RESTUtil.pdb
+C:\Users\student\Desktop\RESTUtil\RESTUtil\obj\Debug\RESTUtil.csprojAssemblyReference.cache
+C:\Users\student\Desktop\RESTUtil\RESTUtil\obj\Debug\RESTUtil.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\RESTUtil\RESTUtil\obj\Debug\RESTUtil.dll
+C:\Users\student\Desktop\RESTUtil\RESTUtil\obj\Debug\RESTUtil.pdb
