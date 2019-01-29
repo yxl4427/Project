@@ -1,3 +1,10 @@
+/*
+ Name:Yaling Lian
+ Course: ISTE 340
+ Project 2
+*/
+
+
 $(document).ready(function(){
 	
 	//Plugin the text animation, the text title will move ever 0.7 second
