@@ -1,10 +1,3 @@
-/*
- Name:Yaling Lian
- Course: ISTE 340
- Project 2
-*/
-
-
 $(document).ready(function(){
 	
 	//Plugin the text animation, the text title will move ever 0.7 second
@@ -491,18 +484,18 @@ $(document).ready(function(){
 	});
 	
 	myXhr('get',{path:'/footer/'},'#foot').done(function(json){
-		$("#foot").append("<h2>"+json.social.title+"</h2>");
-		$('#foot').append('<p>'+json.social.tweet+'</p><p>'+json.social.by+'</p><p><a href="'+json.social.twitter+'">Twitter</a></p><p><a href="'+json.social.facebook+'">Facebook</a></p>');
+		$("#byFoot1").append("<h2 style='color: #cc6600'>"+json.social.title+"</h2>");
+		$('#byFoot1').append('<p style="text-align:center">'+json.social.tweet+'</p><p style="text-align:center">'+json.social.by+'</p><p style="text-align:center;"><a href="'+json.social.twitter+'"><img src="assets/image/Twitter-High-Quality-PNG.png" width="50" height="50"></a><a href="'+json.social.facebook+'"><img src="assets/image/facebook_circle-512.png" width="50" height="50" style="margin-left: 20px"></a></p>');
 		
 		var x="";
 		
 		$.each(json.quickLinks, function(i,oItem){
-    		x += "<p style='text-align:center;color:#b36b00'><a href='" + oItem.href+ "'>"+oItem.title +"</a></p>";
+    		x += "<a href='" + oItem.href+ "'>"+oItem.title +"</a> | ";
 		});	
-		$("#foot").append(x);
+		$("#byFoot2").append('<p style="text-align:center">'+x+'<a href="'+json.copyright.news+'">News</a>');
 		
 		
-		$("#foot").append('<p>'+json.copyright.title+'</p><p>'+json.copyright.html+'</p><p><a href="'+json.copyright.news+'">News</a></p>');
+		$("#byFoot2").append('<p style="text-align:center">'+json.copyright.title+'</p>'+json.copyright.html);
 		
 	});
 	
